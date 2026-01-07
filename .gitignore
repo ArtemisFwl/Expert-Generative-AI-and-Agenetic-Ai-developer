@@ -1,0 +1,30 @@
+# ========================
+# Python virtual environments
+# ========================
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ========================
+# Jupyter Notebook checkpoints
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# Python cache files
+# ========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ========================
+# OS / Editor junk
+# ========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
