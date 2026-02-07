@@ -36,13 +36,29 @@ print(ac)
 
 from sklearn.metrics import classification_report
 cr=classification_report(y_test, y_pred)
+print(cr)
+
+bias=classifier.score(X_train, y_train)
+variance=classifier.score(X_test, y_test)
+
+#-------------------------FUTURE PREDICTION---------------
+
+dataset1= pd.read_csv(r"D:\AI_ML\Expert-Generative-AI-and-Agenetic-Ai-developer\machine-learning\logit classification.csv")
 
 
+d2=dataset1.copy()
+dataset1= dataset1.iloc[:,[2,3]].values
 
 
+from sklearn.preprocessing import StandardScaler
+sc=StandardScaler()
+M=sc.fit_transform(dataset1)
 
+y_pred1=pd.DataFrame()
 
+d2["y_pred1"]=classifier.predict(M)
 
+d2.to_csv("final1.csv")
 
 
 
