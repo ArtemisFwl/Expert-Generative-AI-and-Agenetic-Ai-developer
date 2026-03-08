@@ -9,7 +9,7 @@ eye_classifier = cv2.CascadeClassifier(r"D:\AI_ML\Expert-Generative-AI-and-Agene
 # Load the image
 #img = cv2.imread(r"C:\Users\A3MAX SOFTWARE TECH\Desktop\WORK\1. KODI WORK\1. NARESH\10. WORKSHOP\7. Exploring Generative AI through computer vision\myimage.jpg")
 #img = cv2.imread(r"C:\Users\A3MAX SOFTWARE TECH\Desktop\WORK\2. DATASCIENCE PROJECT\10. Computer vision\computer vison\opencv\image_examples\5.jpg")#img = cv2.imread(r"C:\Users\Admin\Desktop\NIT\1. NIT_Batches\10. WORKSHOP\2024 - WORKSHOP\7. Exploring Generative AI through computer vision\myimage.jpg")
-img = cv2.imread(r"D:\AI_ML\Expert-Generative-AI-and-Agenetic-Ai-developer\opencv\images_inputs_and_outputs\aman_deep.jpeg")
+img = cv2.imread(r"D:\AI_ML\Expert-Generative-AI-and-Agenetic-Ai-developer\opencv\images_inputs_and_outputs\aman_pic_1.png")
 
 #img = cv2.imread(r"C:\Users\Admin\Desktop\NIT\1. NIT_Batches\10. WORKSHOP\2024 - WORKSHOP\7. Exploring Generative AI through computer vision\myimage.jpg")
 
