@@ -6,3 +6,4 @@ pypdf
 bs4
 arxiv
 wikipedia
+langchain-openai
