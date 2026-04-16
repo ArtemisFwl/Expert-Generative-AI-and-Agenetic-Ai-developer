@@ -9,3 +9,5 @@ wikipedia
 langchain-openai
 sentence_transformers
 langchain_huggingface
+faiss-cpu
+langchain-text-splitters
